@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: gray;
+    color: white;
+}
+
+h1{
+    display: inline;
+    font-size: 30px;
+    margin: 25px auto;
+}
+
+#menu{
+    margin: 25px;
+}
+
+#board-container{
+    width: auto;
+    height: auto;
+}
