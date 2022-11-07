@@ -1,13 +1,7 @@
 class pion{
-    constructor(id, owner){
-        this.id = id;
-        this.owner = owner,
-        this.type = 1;
-    }
-
     constructor(id, owner, type){
         this.id = id;
-        this.owner = owner,
+        this.owner = owner;
         this.type = type;
     }
 
@@ -15,4 +9,10 @@ class pion{
         return this.owner.color;
     }
 
+    displayPion(id, color){
+        let target = document.querySelector(`#case${id} .pion`);
+        target.innerHTML = ' ';
+        target.style.backgroundColor = `${color}`;
+
+    }
 }
